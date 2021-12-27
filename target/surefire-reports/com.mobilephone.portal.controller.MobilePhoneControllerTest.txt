@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mobilephone.portal.controller.MobilePhoneControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.368 s - in com.mobilephone.portal.controller.MobilePhoneControllerTest
