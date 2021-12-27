@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "f108e3cd-5210-4ec6-b24f-56d0db59554a",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FindAllPhones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "ProductSearch",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"category\": \"all\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://apis.dashboard.techspecs.io/cs6vk2qrkhg626ia/api/product/search?query=Samsung%2520Galaxy%2520S9",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"dashboard",
+						"techspecs",
+						"io"
+					],
+					"path": [
+						"cs6vk2qrkhg626ia",
+						"api",
+						"product",
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "Samsung%2520Galaxy%2520S9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Book Phone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Return Phone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
